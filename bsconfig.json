@@ -5,7 +5,8 @@
   "bs-dependencies": [
     "bs-fetch",
     "@glennsl/bs-json",
-    "reason-react"
+    "reason-react",
+    "bs-remotedata",
   ],
   "bs-dev-dependencies": [
   ],

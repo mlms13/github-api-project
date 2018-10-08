@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "webpack": "webpack -w",
+    "webpack:production": "NODE_ENV=production webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,7 +16,10 @@
   "dependencies": {
     "@glennsl/bs-json": "^3.0.0",
     "bs-fetch": "^0.3.0",
-    "reason-react": "^0.5.3"
+    "bs-remotedata": "^0.1.0",
+    "reason-react": "^0.5.3",
+    "webpack": "4.19",
+    "webpack-cli": "^2.0"
   },
   "devDependencies": {
     "bs-platform": "^4.0.6"
